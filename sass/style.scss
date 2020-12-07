@@ -43,7 +43,7 @@ section {
 .navigation {
     height: 100%;
     position: relative;
-    background-image: url('https://i.postimg.cc/632W2fvs/pexels-kaboompics-com-5836.jpg" alt="image');
+    background-image: url('https://i.postimg.cc/V6NqH62Y/pexels-jonathan-petersson-965875.jpg');
     background-position: center center;
     background-size: cover;
     color: $color-light;
@@ -74,6 +74,7 @@ section {
     font-style: italic;
     flex: 2;
     color: $color-main;
+    text-align: left;
 }
 
 .splash {
@@ -86,6 +87,7 @@ section {
     font-size: 40px;
     font-style: italic;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .paige-title {
@@ -107,4 +109,103 @@ section {
     cursor: pointer;
     background-position: 100% 0;
     background-size: 300%;
+}
+
+
+/*SERVICES*/
+
+p, h3 {
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+}
+
+.box-in h3 {
+    margin-bottom: 0;
+}
+
+.row-services {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;   
+}
+
+.box-in {
+    flex: 100%;
+    position: relative;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.box-in i {
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: $color-main;
+    border-radius: 50%;
+    border-style: solid;    
+}
+
+
+/*OUR PORTFOLIO*/
+
+.portfolio {
+    background-color: #ced6e0;
+}
+
+
+.card img {
+    width: 100%;
+    height: 300px;    
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: $color-light;
+}
+
+.portfolio h3 {
+    margin-top: 0;
+}
+
+
+
+/*FOOTER*/
+
+.media {
+    display: flex;
+    padding: 0 20px;
+    margin: 0 ;
+}
+
+.media ul {
+    list-style-type: none;
+    display: inline-flex; 
+    
+    flex: 2;        
+}
+.media ul li {
+    text-align: center;
+    font-size: 30px;
+    padding: 0 36px 0 0;    
+}
+
+.media i {
+    background-color: $color-dark;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: $color-main;
+    text-align: center;
+
+}
+
+.copy {
+    align-items: center;
+    font-size: 16px;
+    flex: 1;
 }
