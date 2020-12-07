@@ -16,6 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   font-family: "Exo", sans-serif;
+  color: #2f3640;
 }
 
 section {
@@ -24,26 +25,71 @@ section {
 
 /*NAVIGATION*/
 .navigation {
-  height: 90vh;
+  height: 100%;
   position: relative;
   background-image: url('https://i.postimg.cc/632W2fvs/pexels-kaboompics-com-5836.jpg" alt="image');
   background-position: center center;
   background-size: cover;
+  color: #ffffff;
 }
 
 .navi {
-  display: -ms-flexbox;
   display: flex;
+  padding: 20px 0;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .navi ul {
-  padding: 0;
-  margin: 0;
   list-style-type: none;
+  display: inline-flex;
+  flex: 1;
 }
 
 .navi ul li {
   text-align: center;
-  padding: 0 10;
+  font-size: 20px;
+  padding: 0 36px 0 0;
 }
+
+.name {
+  font-size: 25px;
+  font-style: italic;
+  flex: 2;
+  color: #fbc531;
+}
+
+.splash {
+  text-align: center;
+  position: relative;
+  padding: 100px 0;
+}
+
+.title {
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.paige-title {
+  font-size: 70px;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 200px;
+  background-color: #fbc531;
+  padding: 16px 35px;
+  margin: 30px 0;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
 /*# sourceMappingURL=style.css.map */
