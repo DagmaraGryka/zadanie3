@@ -41,4 +41,9 @@ section {
   margin: 0;
   list-style-type: none;
 }
+
+.navi ul li {
+  text-align: center;
+  padding: 0 10;
+}
 /*# sourceMappingURL=style.css.map */
