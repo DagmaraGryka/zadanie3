@@ -162,6 +162,11 @@ p {
     height: 300px;
     width: 100%;
     object-fit: cover;
+    
+}
+
+.card-image {
+    font-size: 0;
 }
 
 .portfolio {
@@ -189,10 +194,7 @@ p {
 
 .media {
     display: flex;
-    padding: 0 20px;
-    margin: 0 auto ;
-    max-width: 1140px;
-    width: 90;
+    
     align-items: center;
 }
 
@@ -214,6 +216,7 @@ p {
     height: 50px;
     color: $color-main;
     text-align: center;
+    line-height: 50px;
 }
 
 .copy {
@@ -264,11 +267,9 @@ p {
         .splash h1 {
             font-size: 40px;
         }
+
+        .copy {
+            text-align: center;
+        }
 }
 
-@media (max-width: 348px) {
-        
-    .copy {
-        text-align: center;
-    }
-}
