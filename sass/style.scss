@@ -69,6 +69,11 @@ section {
     padding: 0 36px 0 0;    
 }
 
+.navigation a {
+    text-decoration: none; 
+    color: $color-main;
+}
+
 .name {
     font-size: 25px;
     font-style: italic;
@@ -194,7 +199,6 @@ p {
 .media ul {
     list-style-type: none;
     display: inline-flex; 
-    justify-content: center;
     flex: 2;        
 }
 .media ul li {
